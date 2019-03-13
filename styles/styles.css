@@ -1,0 +1,221 @@
+
+*{
+	align-content: center;
+	text-align: center;
+	padding:5px;
+	line-height: 1.4;
+	font-family: 'Nunito', serif;
+	font-size:1.1rem;
+	color:#5a5a5a;
+	text-decoration: none;
+}
+
+
+a:hover{
+	 transition: color 0.6s ease;
+  color: lightblue;
+}
+
+
+li a{
+	background-color:white;
+	display:block;
+	color:black;
+	padding: 10px;
+    margin: -2px;
+}
+
+h1{
+	font-weight:700;
+	font-size:1.3rem;
+
+	
+}
+
+h5, h3, h1, h2, h4, a{
+	color:black;    
+text-shadow: 1px 0 #5a5a5a;
+letter-spacing:1px;
+font-weight:bold;
+}
+
+h3, h2{
+	font-size:1.1em;
+}
+
+
+img{
+	 width:100%;
+}
+
+ul{
+	font-family: 'Acme', sans-serif;
+	font-weight: bold;
+	list-style-type: none;
+
+}
+
+.height{
+	background-color:#9c9c9c0f;
+  content: "";
+  display: table;
+  clear: both;
+  display:flex;
+  justify-content: space-between;
+}
+
+#contact{
+	margin-top:100px;
+	margin-bottom:-8px;
+}
+
+.box{
+	background-color: #9c9c9c0f;
+}
+
+.profile-image{
+	transition: all .2s ease-in-out; 
+	width:75%;
+	margin-right:5px;
+}
+.profile-image:hover { transform: scale(1.07); }
+
+	div.hr {
+border: 0;
+  width: 80%;
+  margin:auto;
+  padding:0px;
+}
+hr{
+	display:none;
+}
+.hr{
+	color: #c3c3c3;
+background-color: #dcdcdc;
+height: 1px;
+padding:0px;
+}
+.container{
+	margin:0 auto ;
+}
+
+.bot{
+	display:inline-block;
+}
+
+.bot{
+	display:none;
+}
+
+h5{
+	font-weight:bold;
+	font-size: 1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Styles for tablet screens */
+@media screen and (min-width: 768px) {
+
+
+li{
+	display:inline-block;
+}
+
+.bot{
+	display:inline-block;
+}
+
+h5 a{
+	display:none;
+}
+
+.profile-image{
+	float:right;
+	width:38%;
+}
+#intro{
+	text-align: left;
+}
+.card{
+	width:47%;
+}
+.clearfix {
+  content: "";
+  clear: both;
+  display: table;
+  width:100%;
+}
+
+.container{
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+#contact p{
+	width:60%;
+	margin:auto;
+}
+
+li a{
+	background-color:rgba(0,0,0,0);
+}
+
+
+}
+	/* Styles for desktop screens */
+
+@media screen and (min-width: 1024px) {
+
+.card{
+	width:32%;
+}
+
+
+h1{
+	float:left;
+	clear:right;
+}
+
+ul{ float:right; }
+
+
+.fix:after{
+content: ".";
+visibility: hidden;
+display: block;
+height: 0;
+clear: both;
+}
+
+#intro{
+	max-width:833px;
+}
+}
